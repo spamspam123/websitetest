@@ -1,0 +1,165 @@
+html, body {
+    height: 100%;
+}
+
+/*STICKY FOOTER*/
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 170px;
+}
+
+.panel-footer {
+    background-color: orange;
+    position: relative;
+    margin-top: -170px;
+    height: 170px;
+    clear: both;
+    padding-top: 20px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+}
+
+/*align search bar*/
+.align-bar {
+    padding: 5px 0 0 0;
+}
+
+.align-bar input {
+    vertical-align: top;
+}
+
+/*search bar*/
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+/*navbar custom*/
+.navbar-custom {
+    border: 0;
+    font-size: 1.2em;
+    border-radius: 0;
+    background-color: orange;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover ,
+.footer-custom a:hover{
+    text-decoration: none;
+    color: grey;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:visited,
+.navbar-default .navbar-nav > li > a:link,
+.navbar-default .navbar-nav > li > a:active,
+.footer-custom a:visited,
+.footer-custom a:link,
+.footer-custom a:active {
+    text-decoration: none;
+}
+
+
+.navbar-default .navbar-header .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+   color: white;
+   
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    font-size: 1.5em;
+}
+
+/*FOOTER*/
+.panel-footer{
+    background-color: orange;
+}
+
+/*resize images*/
+.social-media-icon{
+    margin: 50px 0 0 10px;
+    width: 30px;
+    height: auto;
+}
+
+.social-media {
+    padding-right: 50px;
+}
+
+#about-us,
+#help,
+#discover {
+    font-weight: bold;
+}
+
+.panel-footer {
+    color: white;
+}
+
+hr {
+    margin: 0 0 5px 0;
+}
+
+.footer-custom a{
+    color: white;
+    font-weight: 500;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.clearfix {
+  width: 950px;
+  margin: 0 auto 30px;
+}
+
+.side-content {
+  width: 200px;
+}
+
+.right-content {
+  width: 400px;
+  float: right;
+}
+
+#main > h2 {
+  margin: 0;
+}
+
+/*NEWSLETTER*/
+.newsletter-box {
+  margin: auto;
+  border-radius: 5px;
+  background-color: grey;
+  text-align: center;
+  width: 50%;
+}
+
+.newsletter-btn {
+  margin: 10px 0;
+}
+
+.block-field {
+  margin: 10px auto 0;
+  width: 95%;
+}

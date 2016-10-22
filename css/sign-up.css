@@ -1,0 +1,17 @@
+.clearfix {
+	width: 950px;
+	margin: 0 auto 30px;
+}
+
+.side-content {
+	width: 200px;
+}
+
+.sign-up-form {
+	width: 400px;
+	float: right;
+}
+
+#main > h2 {
+	margin: 0;
+}
